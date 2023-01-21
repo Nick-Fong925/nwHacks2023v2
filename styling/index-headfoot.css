@@ -1,0 +1,50 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", "Roboto", serif;
+}
+
+
+header svg {
+    width: 90px;
+    height: 100px;
+}
+header {
+    padding-left: 1vw;
+    padding-right: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul, .header-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-button {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 200px;
+    height: 35px;
+    font-family: "Poppins";
+    background-color: white;
+    padding: 0px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.header-button:hover {
+    background-color: #A1C181;
+    color: white;
+}
+
+.hero {
+    display: flex;
+}
