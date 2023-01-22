@@ -5,6 +5,9 @@ body {
     font-family: "Poppins", "Roboto", serif;
 }
 
+.button-link {
+    text-decoration: none;
+}
 
 header svg {
     width: 90px;
@@ -29,6 +32,18 @@ header ul, .header-links {
     gap: 30px;
     align-items: center;
     justify-content: center;
+}
+
+
+
+li a {
+    text-decoration: none;
+    transition: all 1.5s ease;
+    color: black;
+}
+
+a:visited {
+    color: black;
 }
 
 .header-button {

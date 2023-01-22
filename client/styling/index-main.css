@@ -111,7 +111,10 @@
     color: white;
     margin-left: 3vw;
     margin-right: 3vw;
+
     margin-top: 7vw;
+    margin-top: 7vh;
+
     box-shadow: 1px 2px 2px grey;
     border-radius: 0 0 20px 0;
     padding: 50px;
@@ -128,4 +131,8 @@
     line-height: 35px;
     margin-left: 10%;
 
+}
+
+.features-heading {
+    font-size: 50px;
 }
