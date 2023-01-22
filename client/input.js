@@ -14,8 +14,12 @@ fetch('http://localhost:3001/getrecipedata',
 .then(response => response.json()).then ((finalrecipe) => {
   console.log(finalrecipe);
 
-  let finalrecipeOB = finalrecipe;
-  console.log(finalrecipeOB);
+  
+  let para = document.getElementById('para');
+
+  
+  para.innerHTML = finalrecipe.title;
+  
 
 })
 

@@ -10,10 +10,11 @@ app.use(parser.json());
 
 
 
-app.post('/getrecipedata', (req, res) => {
+app.post('/getrecipedata', async (req, res) => {
     let recipedata = req.body;
     console.log(recipedata.ingredient);
-    let recipe = generateRecipe(recipedata.ingredient);
+    let recipe = await generateRecipe(recipedata.ingredient);
+    console.log(recipe);
     res.status(200).json(recipe);
 })
 
@@ -45,23 +46,23 @@ const generateRecipe = async (ingredient) => {
       // Make another GET request to get the recipe's instructions
       const instructionsResponse = await axios.get(`https://api.spoonacular.com/recipes/${recipe.id}/analyzedInstructions?apiKey=${apiKey}`);
   
+        let steps = [];
+
       if(instructionsResponse.data.length){
-          console.log('Instructions:');
-          instructionsResponse.data[0].steps.forEach((step) => {
-              console.log(step.step);
-              let steps = step.step;
-              return title, image, steps;
-          });
 
-          
-
-      }else{
+            steps = instructionsResponse.data[0].steps;
+    
+    } else {
           console.log("No Instructions found for this recipe")
       }
-  
+      
+      
+      return {title, image, steps};
+
     } catch (error) {
       console.error(error);
     }
+    
 };
 
 
