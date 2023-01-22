@@ -8,6 +8,7 @@ body {
 .button-link {
     text-decoration: none;
 }
+
 header svg {
     width: 90px;
     height: 100px;
@@ -34,6 +35,7 @@ header ul, .header-links {
 }
 
 
+
 li a {
     text-decoration: none;
     transition: all 1.5s ease;
@@ -43,6 +45,7 @@ li a {
 a:visited {
     color: black;
 }
+
 .header-button {
     border: 2px solid black;
     border-radius: 15px;
