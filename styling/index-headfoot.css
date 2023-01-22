@@ -5,7 +5,9 @@ body {
     font-family: "Poppins", "Roboto", serif;
 }
 
-
+.button-link {
+    text-decoration: none;
+}
 header svg {
     width: 90px;
     height: 100px;
@@ -35,6 +37,7 @@ header ul, .header-links {
 li a {
     text-decoration: none;
     transition: all 1.5s ease;
+    color: black;
 }
 
 a:hover {

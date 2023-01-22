@@ -44,3 +44,5 @@ app.listen(port, () => {
     console.log('port connected to 3002');
 })
 
+
+array[0].name = newName 
