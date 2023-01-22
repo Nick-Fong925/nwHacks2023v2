@@ -4,8 +4,8 @@ const observer = new IntersectionObserver((entries) => {
     if (entry.isIntersecting) {
         entry.target.classList.toggle('show', entry.isIntersecting)
     }
-    else {entry.target.classList.remove('show', entry.isIntersecting)}
-});
+    else {entry.target.classList.remove('show',entry.isIntersecting)}
+    });
 });
 
 
