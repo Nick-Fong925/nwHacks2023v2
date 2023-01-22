@@ -1,0 +1,108 @@
+.hidden {
+    opacity: 0;
+    filter: blur(7px);
+    transform: translateY(100%);
+    transition: all 0.5s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+.icon:nth-child(2) {
+    transition-delay: 100ms;
+
+}
+.icon:nth-child(3) {
+    transition-delay: 200ms;
+    
+}
+.icon:nth-child(4) {
+    transition-delay: 300ms;
+}
+
+#exclaim {
+    transition: 0.5s;
+}
+svg:hover > #exclaim {
+    fill: #ffd972;
+    transform: scale(1.2);
+}
+
+#carrot1 {
+    transform: translateX(100%);
+    transition: 0.7s;
+
+}
+
+#carrot2 {
+    transform: translateX(-100%);
+    transition: 0.7s;
+
+}
+
+svg:hover > #carrot1{
+    transform: translateX(0%);
+}
+
+svg:hover > #carrot2 {
+    transform: translateX(0%);
+}
+
+#one {
+    transition: 0.5s;
+}
+
+#dash1 {
+    transition: 0.5s;
+    transition-delay: 100ms;
+}
+
+#two {
+    transition: 0.5s;
+    transition-delay: 200ms;
+}
+
+#dash2 {
+    transition: 0.5s;
+    transition-delay: 300ms;
+}
+svg:hover > #one {
+    transform: translateY(-100%);
+}
+
+svg:hover > #two {
+    transform: translateY(-100%);
+}
+
+svg:hover > #dash1 {
+    transform: translateY(-100%);
+}
+
+svg:hover > #dash2 {
+    transform: translateY(-100%);
+}
+
+#fork {
+    transition: 0.5s;
+}
+
+#knife {
+    transition: 0.5s;
+}
+
+svg:hover > #fork {
+    transform: rotate(-10deg) scale(1.2);
+}
+
+svg:hover > #knife {
+    transform: rotate(10deg) scale(1.2);
+}
