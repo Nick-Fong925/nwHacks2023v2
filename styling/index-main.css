@@ -73,6 +73,7 @@
 .mission {
     text-align: center;
     margin-top: 12%;
+    margin-bottom: 12%;
 }
 .mission-container {
     display: flex;
@@ -95,5 +96,31 @@
     width: 50px;
     height: 50px;
     flex-shrink: 0;
-    margin-bottom: 15px;
+    margin-bottom: 15%;
+}
+
+.features { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(161,193,129, 0.70);
+    color: white;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 7vw;
+    box-shadow: 1px 2px 2px grey;
+    border-radius: 0 0 20px 0;
+    padding: 25px 25px;
+}
+
+.features img {
+    width: 50%;
+    height: 40%;
+    
+}
+
+.features section {
+    width: 45%;
+    line-height: 35px;
+    margin-left: 30px;
 }
