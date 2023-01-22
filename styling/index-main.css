@@ -71,8 +71,12 @@
 }
 
 .mission {
+    text-align: center;
     margin-top: 12%;
+}
+.mission-container {
     display: flex;
+    margin-top: 10%;
     justify-content: space-around;
     margin-left: 3vw;
     margin-right: 3vw;
