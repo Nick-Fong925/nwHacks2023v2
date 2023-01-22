@@ -31,6 +31,21 @@ header ul, .header-links {
     justify-content: center;
 }
 
+
+li a {
+    text-decoration: none;
+    transition: all 1.5s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+
+}
+
+a:visited {
+    color: black;
+}
 .header-button {
     border: 2px solid black;
     border-radius: 15px;

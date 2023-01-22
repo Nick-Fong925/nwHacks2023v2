@@ -59,36 +59,40 @@ svg:hover > #carrot2 {
 
 #one {
     transition: 0.5s;
+    transform: translateY(-100%);
 }
 
 #dash1 {
     transition: 0.5s;
     transition-delay: 100ms;
+    transform: translateY(-100%);
 }
 
 #two {
     transition: 0.5s;
     transition-delay: 200ms;
+    transform: translateY(-100%);
 }
 
 #dash2 {
     transition: 0.5s;
+    transform: translateY(-100%);
     transition-delay: 300ms;
 }
 svg:hover > #one {
-    transform: translateY(-100%);
+    transform: translateY(0);
 }
 
 svg:hover > #two {
-    transform: translateY(-100%);
+    transform: translateY(0);
 }
 
 svg:hover > #dash1 {
-    transform: translateY(-100%);
+    transform: translateY(0);
 }
 
 svg:hover > #dash2 {
-    transform: translateY(-100%);
+    transform: translateY(0);
 }
 
 #fork {
