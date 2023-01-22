@@ -130,11 +130,6 @@
     transition-delay: 300ms;
 }
 
-#carrot:hover {
-    color: orange;
-    
-}
-
 .features { 
     display: flex;
     align-items: center;
