@@ -18,6 +18,11 @@ header {
     align-items: center;
 }
 
+#logo:hover {
+    transform: scale(1.5);
+    fill:  rgba(161,193,129, 0.70);
+}
+
 header ul, .header-links {
     display: flex;
     list-style: none;
