@@ -27,7 +27,7 @@ header ul, .header-links {
 }
 
 .header-button {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 15px;
     width: 200px;
     height: 35px;
@@ -36,15 +36,11 @@ header ul, .header-links {
     padding: 0px 20px;
     font-size: 1em;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.2s;
 
 }
 
 .header-button:hover {
     background-color: #A1C181;
     color: white;
-}
-
-.hero {
-    display: flex;
 }
