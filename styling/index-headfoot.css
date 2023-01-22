@@ -44,3 +44,49 @@ header ul, .header-links {
     background-color: #A1C181;
     color: white;
 }
+
+footer {
+    background-color: rgba(200, 199, 199, 0.5);
+    text-align: center;
+   
+}
+
+
+.return {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.return a {
+    text-decoration: none;
+    color: black;
+}
+
+.return button {
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 35px;
+    font-family: "Poppins";
+    background-color: white;
+    padding: 0px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.return button:hover {
+    background-color: #A1C181;
+
+}
+
+.return a:hover {
+    color: white;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
