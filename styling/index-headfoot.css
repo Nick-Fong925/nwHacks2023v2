@@ -40,12 +40,6 @@ li a {
     color: black;
 }
 
-a:hover {
-    text-decoration: underline;
-    text-decoration-color: black;
-
-}
-
 a:visited {
     color: black;
 }

@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/styling/index-main.css" rel="stylesheet">
     <link href="/styling/index-headfoot.css" rel="stylesheet">
+    <link href="/styling/input-main.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700&display=swap" rel="stylesheet">
-
+<script src="input.js" defer></script>
     <title>Recipeasy</title>
 </head>
 <body>
@@ -23,12 +24,27 @@
         <ul>
           <li><a href="/client/index.html">Home</a></li>
         </ul>
-        <a class ="button-link" href="#"></a><button class="header-button">Try it out</button></a>
       </section>
         
     </header>
-    <main></main>
-    <h1></h1>
+    <main class="search">
+        <h1 class="search-text">Search for a recipe by typing in ingredients that you already have!</h1>
+        <label for="ingredients">Ingredients</label>
+     <input  placeholder="search" type="text" id="ingredients"><br><br>
+     <button id="genrec" onclick="generaterecipies()"> 1, 2, 3... Recipeasy! </button>
+    </main>
+
+    <section class="recipes"> 
+    <div class="test"></div>
+    <div class="test"></div>
+    <div class="test"></div>
+    <div class="test"></div>
+    <div class="test"></div>
+    <div class="test"></div>
+    <div class="test"></div>
+    <div class="test"></div>
+    <div class="test"></div>
+    </section>
     
 </body>
 </html>
